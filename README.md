@@ -87,3 +87,6 @@ Para rodar este projeto, siga os passos abaixo. Os comandos são para o terminal
 * **Nickolas Santos** → [NickoPS87](https://github.com/NickoPS87)
 * ***LinkedIn*** → https://www.linkedin.com/in/nickolas-santos-387bb936/
 * ***E-mail para contato*** → djnks87@gmail.com
+
+
+:rabbit::rabbit::rabbit: EASTER EGG Pesadelo do Sistema :egg::egg::egg:
