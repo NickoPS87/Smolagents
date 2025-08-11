@@ -8,7 +8,15 @@ Repositório para documentar os estudos e testes com a biblioteca `smol-agents`,
 
 ## 🚀 Sobre o Projeto
 
-O objetivo principal deste projeto é explorar as capacidades da biblioteca `smol-agents` da Hugging Face para automatizar tarefas de desenvolvimento. O notebook principal (`smolagents.ipynb`) contém um exemplo prático de como usar um `CodeAgent` para gerar um script Python que monitora o preço de criptomoedas.
+Este projeto é uma exploração prática da biblioteca smolagents da Hugging Face, uma ferramenta poderosa para a criação de agentes de IA autônomos. O objetivo é dissecar e testar seus três componentes principais:
+
+🧠 Agentes: O cérebro da operação (ex: CodeAgent), responsável por planejar e executar tarefas com base em um objetivo.
+
+🔌 Modelos: A fonte de inteligência que alimenta o agente. Este projeto começa utilizando a API da OpenAI (OpenAIModel com GPT-4), mas a biblioteca é flexível e permite a integração com modelos open-source do Hugging Face (InferenceClientModel).
+
+🛠️ Ferramentas: As capacidades práticas do agente. Começamos com o PythonInterpreterTool para geração e execução de código, mas o framework suporta outras ferramentas, como busca na web (WebSearchTool), para expandir as habilidades do agente.
+
+:floppy_disk: O arquivo smolagents.ipynb documenta nosso primeiro caso de uso, gerando um script para 
 
 
 ---
@@ -65,7 +73,7 @@ Para rodar este projeto, siga os passos abaixo. Os comandos são para o terminal
     jupyter lab
      ```
     
-2.  No navegador, abra o notebook **[smolagents.ipynb](smolagents.ipynb)**.
+2.  No painel de navegação à esquerda, selecione o arquivo **[Smolagents.ipynb](Smolagents.ipynb)**.
 
 
 3.  Execute as células do notebook usando `Shift + Enter`.
