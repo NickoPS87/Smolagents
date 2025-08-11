@@ -54,7 +54,7 @@ Para rodar este projeto, siga os passos abaixo. Os comandos são para o terminal
     $env:OPENAI_API_KEY = 'sua-chave-secreta-aqui'
     ```
 
-    
+   
 ---
 
 
