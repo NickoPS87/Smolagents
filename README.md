@@ -19,6 +19,13 @@ Este projeto é uma exploração prática da biblioteca smolagents da Hugging Fa
 :floppy_disk: O arquivo smolagents.ipynb documenta nosso primeiro caso de uso, gerando um script para 
 
 
+## :pushpin: Objetivo
+
+:bulb: O objetivo principal deste projeto é explorar as capacidades da biblioteca smolagents da Hugging Face para automatizar tarefas de desenvolvimento. Nosso primeiro caso de uso está implementado no arquivo smolagents.ipynb, que demonstra o fluxo de trabalho gerando um script para monitorar o preço de criptomoedas.
+
+:office: A arquitetura da biblioteca smolagents é flexível, permitindo a conexão com diferentes provedores de modelos de linguagem (LLMs). Para este estudo inicial, utilizamos o OpenAIModel para nos conectarmos à API do GPT-4. No entanto, a biblioteca também está preparada para se conectar a outros modelos, como os disponíveis no Hugging Face, através do InferenceClientModel, bastando para isso instanciar o agente com o objeto de modelo correspondente.
+
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
