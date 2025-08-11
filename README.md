@@ -1,4 +1,4 @@
-# 🤖 Projeto de Testes com Smol-Agents
+# 🤖 Projeto de Testes com SmolAgents
 
 Repositório para documentar os estudos e testes com a biblioteca `smol-agents`, focada na criação de agentes de IA para geração de código.
 
